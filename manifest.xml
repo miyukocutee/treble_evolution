@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+<remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="td" fetch="https://github.com/TrebleDroid/" />
+<project path="device/phh/treble" name="device_phh_treble" remote="td" revision="android-14.0" />
+<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="td" revision="pie" />
+<project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+<project path="vendor/interfaces" name="vendor_interfaces" remote="td" revision="android-14.0" />
+<project path="vendor/lptools" name="vendor_lptools" remote="phh" revision="master" />
+<project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
+<project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="github" revision="master" />
+<project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" remote="aosp" clone-depth="1" revision="204f1bad00aaf480ba33233f7b8c2ddaa03155dd" />
+</manifest>
